@@ -69,7 +69,7 @@ se A>B=1 e os outros são 0
 se A<B=1 e os outros 0
 
 
-[circuito comparador](comparador.gif)
+![circuito comparador](comparador.gif)
 
 
  **Circuito subtrator**

@@ -93,7 +93,7 @@ Para o decodificador de 7 segmentos foi utilizado a tabela verdade e o mapa de k
 
 ![decodificador](decodificador.gif)
 
-
+**Conclusão**
 
 
 

@@ -33,7 +33,7 @@ O circuito multiplexador possui 4 entradas, 1 saída e 2 bits de seleção. Sua 
 ![Circuito multiplexador](./multiplexador.gif)
 
 
-# **Circuito Somador**
+### **Circuito Somador**
 
 O circuito somador permite a realização de operações de adição sendo essencial para a conclusão do projeto.
 

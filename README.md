@@ -2,18 +2,20 @@
 
 
 **Interface principal**
+![interface-principal](interface-principal.gif)
 
 
 
 **Introdução**
 
 
-Este relatório apresenta os detalhes de construção do projeto de uma calculadora digital capaz de realizar operações entre dois números hexadecimais de um único dígito, variando de 0 a F. O sistema foi projetado para explorar circuitos lógicos combinacionais, utilizando componentes eletrônicos como displays de 7 segmentos, circuito somador, decodificadores, multiplexador, subtratores e um decodificador inverso.
-
+Este relatório apresenta os detalhes de construção do projeto de uma calculadora digital capaz de realizar operações entre dois números hexadecimais de um único dígito, variando de 0 a F. O sistema foi projetado para explorar circuitos lógicos combinacionais, utilizando componentes eletrônicos.
 
 **Objetivo**
 
-O objetivo deste projeto é criar uma calculadora digital intuitiva para inserir dois números hexadecimais por meio de LEDs e displays de 7 segmentos, permitindo a realização de soma, subtração, multiplicação e possuindo um circuito comparador.
+O objetivo do projeto é criar uma calculadora digital intuitiva para inserir dois números hexadecimais por meio de LEDs e displays de 7 segmentos, permitindo a realização de soma, subtração, multiplicação e possuindo um circuito comparador.
+
+
 
 
 
@@ -27,13 +29,6 @@ O objetivo deste projeto é criar uma calculadora digital intuitiva para inserir
 
 O circuito multiplexador possui 4 entradas,1 saída e 2 bits de seleção. Sua função principal é receber múltiplas entradas e, com base nos bits de seleção, escolher uma delas para transferir à saída.
 
-Diagrama esquemático
-fonte: playlist de circuitos
-
-
-![Diagrama multiplexador](./Captura%20de%20tela%202024-09-23%20215103.png)
-
-fonte: 
 
 ![Circuito multiplexador](./multiplexador.gif)
 
@@ -51,14 +46,14 @@ Utiliza dois meio somadores e uma porta OR, com 3 entradas (a,b,c) e duas saída
 
 
 
-![Circuito somador completo](./)
+![Circuito somador completo](./somador%20completo.gif)
 
 
 3 passo: somador de 4 Bits*
 
 Utiliza o meio somador e 4 somadores completos sendo que o meio somador já vai estar presente.
 
-CIRCUITO SOMADOR DE 4 BITS
+![circuito somador](Somador.gif)
 
 
 TESTES
@@ -74,28 +69,32 @@ se A>B=1 e os outros são 0
 se A<B=1 e os outros 0
 
 
-CIRCUITO COMPARADOR
+[circuito comparador](comparador.gif)
 
 
  **Circuito subtrator**
 
 O subtrador foi feito com meio somadores e somadores completos, no modelo somador/subtrador controlado, porém com uma alteração em sua estrutura para realizar somente a operação de subtração. verdade, mas ao invés do mapa de karnaugh, foi utilizado a soma de produtos para obter as expressões lógicas do circuito.
 
-CIRCUITO DO SUBTRATOR
+
+![circuito subtrator](subtrator.gif)
 
 
 **Decodificador inverso**
 
-O Decodificador Inverso foi feito baseado no decodificador para display de 7 segmentos pois é basicamente o inverso do mesmo. Foi utilizado a tabela 
+O Decodificador Inverso foi feito baseado no decodificador para display de 7 segmentos pois é basicamente o inverso do mesmo. Foi utilizado a tabela
 
-CIRCUITO DO DECODIFICADOR INVERSO
+![decodificador inverso](./decodificador%20inverso.gif)
 
 
 **Decodificador de 7 segmentos**
  
 Para o decodificador de 7 segmentos foi utilizado a tabela verdade e o mapa de karnaugh para a obtenção das expressões lógicas do circuito. Recebe um número binário e exibe o número hexadecimal no display de 7 segmentos, de 0 a F.
 
-CIRCUITO DO DECODIFICADOR 
+![decodificador](decodificador.gif)
+
+
+
 
 
 

@@ -27,15 +27,15 @@ O objetivo deste projeto é criar uma calculadora digital intuitiva para inserir
 
 O circuito multiplexador possui 4 entradas,1 saída e 2 bits de seleção. Sua função principal é receber múltiplas entradas e, com base nos bits de seleção, escolher uma delas para transferir à saída.
 
-Diagrama esquemático*
+Diagrama esquemático
+fonte: playlist de circuitos
 
 
-![teste](./Captura%20de%20tela%202024-09-23%20215103.png)
+![Diagrama multiplexador](./Captura%20de%20tela%202024-09-23%20215103.png)
 
 fonte: 
 
-
-CIRCUITO MULTIPLEXADOR
+![Circuito multiplexador](./multiplexador.gif)
 
 
 **Circuito somador**
@@ -44,16 +44,14 @@ O circuito somador permite a realização de operações de adição sendo essen
 
 1 passo: implementar um meio somador de 2 entradas a e b usando portas lógicas
 
+![Circuito meio somador](./meio%20somador.gif)
 
-CIRCUITO MEIO SOMADO
-
-
- 
 2 passo: somador completo*
 Utiliza dois meio somadores e uma porta OR, com 3 entradas (a,b,c) e duas saídas (S e Ci) 
 
 
-CIRCUITO SOMADOR COMPLETO
+
+![Circuito somador completo](./)
 
 
 3 passo: somador de 4 Bits*
